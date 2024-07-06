@@ -14,7 +14,6 @@ const Blogs = () => {
         throw new Error('Network response Error!!!');
       }
       const data = await response.json();
-      console.log('Blogs>>>', data);
       setBlogs(data?.data)
     } catch (error) {
       console.error('Error fetching Data >>>', error);
