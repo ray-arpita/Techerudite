@@ -1,0 +1,15 @@
+.navbar{
+    position: relative;
+    z-index: 9;
+}
+
+.menu-item {
+    color: #232323;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.1px;
+    letter-spacing: 0.16px;
+    text-align: center;
+}
