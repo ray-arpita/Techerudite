@@ -9,6 +9,7 @@ const Footer = () => {
   const fetchDetails = async () => {
     const url = 'http://3.7.81.243:3253/api/settings/fetch-frontend-details';
 
+    
     try {
       const response = await fetch(url);
       if (!response.ok) {
