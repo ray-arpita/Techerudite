@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const [details, setDetails] = useState([]);
-  console.log(details)
 
   const fetchDetails = async () => {
     const url = 'http://3.7.81.243:3253/api/settings/fetch-frontend-details';
